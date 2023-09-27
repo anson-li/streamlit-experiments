@@ -11,3 +11,7 @@ pip install openai
 add openAPI key
 python -m streamlit run index.py
 ```
+
+### Dev notes
+
+- May require XHR instead of Fetch, as Fetch has memory fill risk.
